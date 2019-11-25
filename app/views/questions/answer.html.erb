@@ -1,0 +1,17 @@
+
+<div class="container">
+  <h1>Stupid Coaching</h1>
+  <h4>Ask your coach anything:</h4>
+<div class="text">
+  <div class="question">
+  <p><%= @question %></p>
+  </div>
+  <div class="answer">
+  <p><%= @answer %></p>
+  </div>
+</div>
+  <div class="link">
+  <%= link_to "Ask another question", ask_path %>
+  </div>
+</div>
+<!-- After submitting the form, the user is redirected to a new page where she/he will see her/his question and the coach answer. -->

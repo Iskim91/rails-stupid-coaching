@@ -1,0 +1,74 @@
+body{
+  background-color: #fffeed;
+  color: black;
+  margin: 0 auto;
+  width:400px;
+}
+
+.question{
+  background-color: #b0e1f4;
+  padding:8px;
+  color:rgba(0, 0, 0, 0.7);
+}
+
+.answer{
+  background-color: #c2efcf;
+  padding:8px;
+  color:rgba(0, 0, 0, 0.7);
+  margin-bottom: 14px;
+}
+
+a{
+  margin-top: 40px;
+  background-color: #fcd3ff;
+  padding:10px;
+  border-radius:2px;
+  text-decoration: none;
+  color:rgba(0, 0, 0, 0.55);
+}
+.container{
+  margin-top: 16px;
+  background-color: #f7f7f7;
+  height: 300px;
+  width:420px;
+  padding:8px;
+  border-radius: 2px;
+  box-shadow: 0px 4px 30px rgba(0,0,0,0.2);
+}
+
+h4{
+  margin-bottom: 3px;
+}
+.text-box{
+  border-radius: 3px;
+}
+.cont{
+  margin-top: 300px;
+  background-color:#f9f9f9;
+  height: 140px;
+  width:280px;
+  padding:8px;
+  border-radius: 2px;
+  box-shadow: 0px 4px 30px rgba(0,0,0,0.2);
+
+
+}
+.form{
+  margin-top: 16px;
+  font-size: 16px;
+  text-align: center;
+
+}
+#submit{
+  background-color: #07b8ff;
+  height:40px;
+  width: 120px;
+  border-radius: 3px;
+  color:white;
+}
+#input{
+  height:36px;
+  width: 260px;
+  margin-bottom: 12px;
+  font-size: 16px;
+}
